@@ -15,7 +15,6 @@ define( 'CS_VERSION', '1.0.0' );
 define( 'CS_FILE', __FILE__ );
 define( 'CS_DIR', dirname( __FILE__ ) );
 
-include CS_DIR.'/lib/class.Casino_Helpers.php';
 include CS_DIR.'/lib/class.Casino_Plugin.php';
 
 new Plugin();
